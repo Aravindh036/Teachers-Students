@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Maps</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="body">
+    <h2 class="h2">The Community Welcomes You</h2>
+    <h4>Select any Instructor near you and get started</h4>
+    <div id="map"></div>
+    <div class="chatBox">
+        <div class="chatBoxHead">chat box</div>
+            <div class="chatList">
+                <a id="instructor1" href="javascript:openPopup('instructor1','Instructor 1');">Instructor 1</a>
+                <hr/>
+                <a id="instructor2" href="javascript:openPopup('instructor2','Instructor 2');">Instructor 2</a>
+                <hr/>
+            </div>
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd0QpyhGNrZDMGNJIpYQ1itR7gxxW8_bs&callback=initMap"></script>
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

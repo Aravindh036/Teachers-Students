@@ -1,0 +1,169 @@
+/* home */
+#map{
+    height: 600px;
+    width:75%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    float: left
+}
+
+.h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.chatBox{
+    float: right;
+    width: 21%;
+    position: fixed;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    padding: 12px;
+
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(29, 49, 91, .3)!important;
+
+}
+
+.chatBoxHead{
+    background-color: rgba(170, 36, 36, 0.829);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.chatList a{
+    color: rgb(64, 64, 68)!important;
+    /* background-color: black; */
+    padding: 8px;
+}
+
+.chatList{
+    /* padding-top: 200opx; */
+    margin: 20px; 
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid  rgba(90, 78, 78, 0.829);
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+
+
+/* login and signup */
+.container {
+    align-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: rgba(170, 36, 36, 0.829);
+    vertical-align: middle;
+    width: 400px;
+    top: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-align:right;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    float: none;
+    vertical-align: middle;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a::selection{
+    color: black;
+}
+
+h5{
+    text-align: center;
+}
+
+.submit{
+    display: flex; 
+    justify-content: center;
+}
+
+
+
+/*chatbox */
+
+.popup-box{
+    position: fixed;
+    float: right;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    bottom: 20px!important;
+    
+    right: 22.5%;
+
+  
+}
+.popup-head{
+    background-color: rgba(170, 36, 36, 0.829);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+
+}
+
+
+
+
+.popup-head .popup-head-left{
+    float: left;
+}
+
+.popup-head .popup-head-right{
+    float: right;
+    padding-left: 2px;
+    margin-top: -5px;
+}
+
+.popup-box .popup-messages{
+    height: 90%;
+    background-color: white;
+    overflow-y: scroll;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+#textarea{
+    float: left;
+    padding: 8px;
+    border:gray solid 1px;
+    width: 235px;
+    border-radius: 5px;
+
+}
+
+#button{
+    height: 30px;
+    background-color: rgba(170, 36, 36, 0.829);
+    border-radius: 8px;
+    width:47px;
+}
+
+body{
+    background-color:rgba(221, 210, 215, 0.582);
+}
